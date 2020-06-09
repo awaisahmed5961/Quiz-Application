@@ -1,0 +1,126 @@
+body{
+	margin: 0 auto;
+	padding: 0px;
+}
+
+.headerBar{
+width: 100%;
+background-color: #11C243;
+height: 60px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.headerBar h1{
+	color: white;
+	margin-left: 100px;
+}
+.headerBar p{
+	float: right;
+	color: white;
+	margin-right: 40px;
+}
+
+.mainbody{
+	width: 100%;
+	border: 1px dotted green;
+	height: 500px;
+}
+.mainbody table, tr, th, td{
+	margin: auto;
+	width:70%;
+	border:1px solid black;
+	border-collapse: collapse;
+}
+.mainbody table tr th, td{
+	height: 30px;
+	padding: auto;
+	width : auto;
+
+}
+.mainbody table tr td{
+	text-align: center;
+}
+.modal{
+	display: none;
+	margin-top: 10px;
+	margin-left: 300px;
+	position: fixed;
+	width: 50%;
+	height: auto;
+	z-index: 6;
+	box-shadow: 4px 5px #C2C1C1;
+
+} 
+.modalheader {
+	background-color: #FF772D;
+	color: white;
+	height: 50px;
+	font-size: 1.5em;
+}
+.modalheader p{
+	text-align: left;
+}
+.modalcontent{
+	width: 100%;
+	padding: 20px;
+	text-align: justify;
+
+}
+.modalfotter{
+	background-color: #FF772D;
+	color: white;
+	height: 40%;
+	font-size: 1.0em;	
+}
+
+.modalfotter button{
+	float: right;
+	margin-right: 20px;
+	background-color: #BFB9B9;
+	border: 1px solid #BFB9B9;
+	border-radius: 4px;
+}
+.modalfotter button:link{
+  text-decoration: none;
+}
+   /*this is styling for quiz section*/
+
+   .quizSection{
+   		
+   		margin: 20px auto;
+   	   width: 80%;
+   	   height: auto;
+   	   background-color: #E5DEDE;
+   	   box-shadow: 2px 2px 2px 2px  #D5D3D3;
+   }
+   .timer{
+   	height: 50px;
+   	width: 70px;
+   	color: black;
+   	float: right;
+   	margin-right: 30px;
+   	margin-top: 10px;
+   }
+   .timer p{
+   	text-align: center;
+   	font-weight: bold;
+   }
+   .QA{
+   	padding-left: 20px;
+   	padding-top: 30px;
+   	text-align: justify;
+   	
+   }
+   .quizSection #button{
+   	float: right;
+   	margin-right: 100px;
+   	background-color: green;
+   	border: 1px solid green;
+   	border-radius: 4px;
+   	height: 30px;
+   	width: 60px;
+   }
+
+    
+

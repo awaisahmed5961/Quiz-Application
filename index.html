@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Online Quiz System</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet/stylesheet.css">
+	<script type="text/javascript" src="javascript/javascript.js"></script>
+</head>
+
+<body>
+
+	<!-- this is header section -->
+	<header>
+		<div class="headerBar">
+			<h1>Online Quiz System</h1>
+			<p>24/10/2018</p>
+		</div>
+	</header>
+
+	<!-- Here is modal section  -->
+
+	<div class="modal" id="instructionmodel">
+		<div class="modalheader">
+
+			<p>Instruction Before Attempting Quiz</p>
+		</div>
+		<div class="modalcontent">
+			Once Quiz is started than it will take limited time to exit.
+			<ul>
+				<li>Don't use keybord up down arrow keys.
+				</li>
+				<li>
+					Don't use mouse wheel.
+				</li>
+				<li>If one Question is selected and it will never be again selected.
+				</li>
+
+			</ul>
+			<hr style="width:90%;>
+			<p style=" margin-top: 20px;">If you Read above instructions cleatly than click on start quiz.</p>
+		</div>
+		<div class="modalfotter">
+
+			<button><a href="Quizes/index.html">Start Quiz</a></button>
+		</div>
+	</div>
+	<!-- here is mainbody of index page -->
+	<div class="mainbody">
+		<table>
+			<tr>
+				<th>Quiz No</th>
+				<th>Start Time</th>
+				<th>End Date</th>
+				<th>Solve Quiz</th>
+			<tr>
+				<td>1</td>
+				<td>
+					25/10/2018
+				</td>
+				<td>26/10/2018</td>
+				<td><button id="quiztaken" onclick="showModal();">Get start</button>
+				</td>
+			</tr>
+			</tr>
+		</table>
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

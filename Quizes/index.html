@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Quizes </title>
+	<link rel="stylesheet" type="text/css" href="../stylesheet/stylesheet.css">
+	
+	<script type="text/javascript" src="../javascript/javascript.js"></script>
+	
+</head>
+<body onload ="getTime();">
+	
+<header>
+	<div class="headerBar">
+		<h1>Online Quiz System</h1>
+		<p>24/10/2018</p>
+	</div>
+</header>
+	
+
+	<div class="mainbody">
+		 
+		 <div class="quizSection">
+		 	<div class="timer" >
+		 		 <p id="time" >123</p> 
+		 	</div>
+		 	<div class="QA">
+		    <p id="Question">1.Who is Albert Einstine</p>
+		    <p>A.<input type="radio" name="answer" checked="checked"> <span id="a">Scientist</span></p>
+		    <p>B.<input type="radio" name="answer" ><span id="b">Doctor</p>
+		    <p>C.<input type="radio" name="answer" > <span  id="c">Actor</span></p>
+		    <p>D.<input type="radio" name="answer" > <span id="d">Engineer</span></p><br /><br />
+		    </div>
+		    <input type="submit" name="submit" value="Next" id="button" onclick="changeQuestion();">	<br /> <br /><br />
+		 </div>
+
+	</div>
+
+
+
+
+
+
+</body>
+</html>
